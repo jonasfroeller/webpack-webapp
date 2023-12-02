@@ -1,0 +1,20 @@
+body {
+  header {
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  main {
+    min-height: 100vh;
+  }
+
+  footer {
+    padding: 0.5rem 1rem;
+  }
+}

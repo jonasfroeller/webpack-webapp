@@ -1,0 +1,4 @@
+= Index
+
+link:https://github.com/jonasfroeller/webpack-webapp[Github Repository]
+// xref:file[info]
