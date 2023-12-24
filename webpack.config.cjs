@@ -61,6 +61,12 @@ module.exports = {
       template: 'public/routes/index.html',
       chunks: ['index'], // only include the 'index' chunk
     }),
+    new HtmlWebpackPlugin({
+      // minifies html and adds imports
+      filename: 'sub/index.html',
+      template: 'public/routes/sub/index.html',
+      chunks: ['index'], // only include the 'index' chunk
+    }),
     new MiniCssExtractPlugin({
       // minifies css and splits it
       filename: DEV_MODE ? '[name].css' : '[name].[contenthash].css',
