@@ -95,8 +95,8 @@ module.exports = {
       new ExecaPlugin({
         onBeforeRun: [
           {
-            args: [],
-            cmd: 'node build-docs.cjs',
+            args: ['run', 'build-docs'],
+            cmd: 'npm',
             options: {
               cwd: process.cwd(),
             },

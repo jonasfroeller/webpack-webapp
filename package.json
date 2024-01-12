@@ -15,6 +15,7 @@
     "start": "cross-env BUILD_DOCS=true webpack-cli serve",
     "dev": "npm start",
     "build": "cross-env BUILD_DOCS=true webpack-cli build --mode production",
+    "build-docs": "node build-docs.cjs",
     "preview": "node server.js --folder dist",
     "format": "prettier --single-quote --no-bracket-spacing --bracket-same-line --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css,scss}\"",
     "lint": "eslint public",
